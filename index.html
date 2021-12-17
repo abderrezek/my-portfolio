@@ -1,0 +1,633 @@
+<!doctype html>
+<html class="scroll-smooth" lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    content="CV Abderrezek Gallal,Abderrezek Gallal,Portfolio Abderrezek Gallal,SiteWeb Abderrezek Gallal"
+    name="keywords"
+  />
+  <meta content="Portfolio Abderrezek Gallal" name="description" />
+  <meta name="author" content="Abderrezek Gallal" />
+
+  <title>Abderrezek Gallal</title>
+
+  <link href="assets/img/favicon.png" rel="icon" />
+
+  <link href="assets/css/styles.min.css" rel="stylesheet">
+</head>
+<body class="text-gray-700">
+  <div class="dark:bg-gray-800 dark:text-gray-200 h-full">
+    <!-- start navbar -->
+    <nav class="sticky shadow top-0 z-30 bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 print:hidden">
+      <div class="container max-w-7xl mx-auto flex flex-wrap items-center justify-between">
+        <!-- logo -->
+        <a href="index.html" class="flex">
+          <svg class="h-10 mr-3" viewBox="0 0 52 72" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.87695 53H28.7791C41.5357 53 51.877 42.7025 51.877 30H24.9748C12.2182 30 1.87695 40.2975 1.87695 53Z" fill="#76A9FA"></path><path d="M0.000409561 32.1646L0.000409561 66.4111C12.8618 66.4111 23.2881 55.9849 23.2881 43.1235L23.2881 8.87689C10.9966 8.98066 1.39567 19.5573 0.000409561 32.1646Z" fill="#A4CAFE"></path><path d="M50.877 5H23.9748C11.2182 5 0.876953 15.2975 0.876953 28H27.7791C40.5357 28 50.877 17.7025 50.877 5Z" fill="#1C64F2"></path></svg>
+          <span class="self-center text-lg font-semibold whitespace-nowrap dark:text-white">Ab</span>
+        </a>
+
+        <div class="flex justify-center align-center">
+          <button type="button" class="toggle-theme md:hidden ml-3 text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 rounded-lg text-sm p-2 inline-flex items-center dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <svg class="dark hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+            <svg class="light hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+          </button>
+
+          <!-- button menu -->
+          <button id="menu-btn" type="button" class="md:hidden ml-3 text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 rounded-lg text-sm p-2 inline-flex items-center dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </div>
+
+        <!-- links -->
+        <div class="hidden md:block w-full md:w-auto" id="menu">
+          <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+            <li>
+              <!-- bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-blue-700 md:p-0 rounded dark:text-white  aria-current="page" -->
+              <a href="#a-propos" class="nav-link">
+                À propos
+              </a>
+            </li>
+            <li>
+              <a href="#mon-experiences" class="nav-link">
+                Expériences
+              </a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link">
+                Éducation
+              </a>
+            </li>
+            <li>
+              <a href="#projets" class="nav-link">
+                Projets
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:bg-gray-50 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                Contact
+              </a>
+            </li>
+            <li>
+              <button type="button" class="toggle-theme hidden md:block hover:bg-gray-50 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                <svg class="dark hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                <svg class="light hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start header about -->
+    <div id="a-propos" class="scroll-mt-16 flex items-center justify-center flex-col md:flex-row my-10 md:my-12 space-y-4 md:space-x-6">
+      <img data-src="assets/img/me.jpg" src="assets/img/me_blur.jpg" class="lazyload inline-flex shadow-md rounded-md w-52 h-52" alt="image abderrezek gallal">
+
+      <div class="text-center md:text-left">
+        <h1 class="font-bold text-3xl">Abderrezek Gallal</h1>
+
+        <p class="mt-4 mb-6">Ingénieure en Informatique</p>
+
+        <div class="">
+          <a class="btn" href="cv.pdf" target="_blank">TÉLÉCHARGER CV</a>
+
+          <a class="btn" href="#contact">CONTACTEZ MOI</a>
+        </div>
+      </div>
+    </div>
+    <!-- end header about -->
+
+    <div class="container max-w-7xl mx-auto px-4 space-y-10 pb-10">
+      <!-- start about -->
+      <div class="flex flex-col md:flex-row">
+        <!-- about -->
+        <div class="w-full md:w-3/5">
+          <div class="md:pr-8">
+            <h2 class="header">À propos de moi</h2>
+
+            <p class="text-justify mb-6 md:mb-0">
+              Je suis un ingénieur en informatique avec une bonne connaissance de programmation.
+              Je suis un apprenant autonome. J'aime aussi travailler en équipe.
+              Je concentre tous mes efforts sur l'impact que je peux laisser sur ce monde !.
+            </p>
+          </div>
+        </div>
+
+        <!-- info  mt-6 md:mt-11 mr-0 md:ml-10 -->
+        <div class="w-full md:w-2/5 md:mt-12">
+          <div class="space-y-2">
+            <div class="flex flex-wrap">
+              <p class="w-full md:w-4/12 font-medium">Âge</p>
+              <p class="w-full md:w-8/12">27</p>
+            </div>
+            <div class="flex flex-wrap">
+              <p class="w-full md:w-4/12 font-medium">E-mail</p>
+              <p class="w-full md:w-8/12">abderrezek.gallal@gmail.com</p>
+            </div>
+            <div class="flex flex-wrap">
+              <p class="w-full md:w-4/12 font-medium">Téléphone</p>
+              <p class="w-full md:w-8/12">0560314280 / 0697970724</p>
+            </div>
+            <div class="flex flex-wrap">
+              <p class="w-full md:w-4/12 font-medium">Adresse</p>
+              <p class="w-full md:w-8/12">Chlef, Algérie</p>
+            </div>
+            <div class="flex flex-wrap">
+              <p class="w-full md:w-4/12 font-medium">Réseau Social</p>
+              <p class="w-full md:w-8/12 space-x-3 mt-1 md:mt-0">
+                <a target="_blank" href="https://www.facebook.com/Abderrezek.G" class="inline-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/abderrezek94" class="inline-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/abderrezek-gallal" class="inline-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+                </a>
+
+                <a target="_blank" href="https://github.com/Abderrezek" class="inline-block">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end about -->
+
+      <!-- start skills -->
+      <div>
+        <h2 class="header">Compétences Professionnelles</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- left -->
+          <div class="space-y-3">
+            <div>
+              <div class="header-progress">HTML / CSS / JS</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">PHP (Laravel)</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 80%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">React JS</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 65%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">JAVA</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 65%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">Git</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 55%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- right -->
+          <div class="space-y-3">
+            <div>
+              <div class="header-progress">C#</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 65%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">SQL Server</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 65%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">Administration d'un réseau</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 50%"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="header-progress">Système d'exploitation: Windows, Linux(debian)</div>
+              <div class="progress">
+                <div class="progress-body" style="width: 60%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end skills -->
+
+      <!-- start experience -->
+      <div id="mon-experiences" class="scroll-mt-16">
+        <h2 class="header">L'expérience Professionnelle</h2>
+
+        <div class="timeline">
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                Gestion de personnel
+                <span class="timeline-card-semiHeader">à Trans Canal Centre - Oued Fodda</span>
+              </p>
+
+              <p class="timeline-card-body mb-4">Décembre, 2015 - Mai, 2016</p>
+
+              <ul>
+                <li>- Langage : PHP</li>
+                <li>- Technologie web : HTML, CSS, JS</li>
+                <li>- Modélisation : UML</li>
+                <li>- SGBD : MySQL</li>
+                <li>- IDE : Sublime Text</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                Assistant ingénieur
+                <span class="timeline-card-semiHeader">à APC Commune oued fodda</span>
+              </p>
+
+              <p class="timeline-card-body mb-4">Novembre, 2021 - Décembre, 2021</p>
+
+              <p>
+                Organisation d'élections 2021
+                <ul>
+                  <li>- Gérer et installée les ordinateurs et réseaux</li>
+                  <li>- Rédaction et impression de documents</li>
+                  <li>- Maintenance les ordinateurs</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end experience -->
+
+      <!-- start education -->
+      <div id="education" class="scroll-mt-16">
+        <h2 class="header">Éducation</h2>
+
+        <div class="timeline">
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                Système informatique - Licence
+                <span class="timeline-card-semiHeader">à partir de Universite Hassiba Benbouali de Chlef</span>
+              </p>
+
+              <p class="timeline-card-body">2013 - 2016</p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                Ingénierie des systèmes d’information avancés - Master
+                <span class="timeline-card-semiHeader">à partir de Universite Hassiba Benbouali de Chlef</span>
+              </p>
+
+              <p class="timeline-card-body">2016 - 2018</p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                CISCO CCNA niveau 1
+                <span class="timeline-card-semiHeader">à partir de CFA Institute - Chlef</span>
+              </p>
+
+              <p class="timeline-card-body">10/2018 - 03/2019</p>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-body">
+              <p class="timeline-card-header">
+                CISCO CCNA niveau 2
+                <span class="timeline-card-semiHeader">à partir de CFA Institute - Chlef</span>
+              </p>
+
+              <p class="timeline-card-body">03/2019 - 07/2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end education -->
+
+      <!-- start services -->
+      <div>
+        <h2 class="header">Services</h2>
+
+        <div class="flex flex-wrap text-center">
+          <div class="service-container mb-2 md:mb-0">
+            <div class="service">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+
+              <h3 class="service-title">Applications de Bureau</h3>
+            </div>
+          </div>
+
+          <div class="service-container mb-2 md:mb-0">
+            <div class="service">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+
+              <h3 class="service-title">Sites Internet</h3>
+            </div>
+          </div>
+
+          <div class="service-container mb-2 sm:mb-0">
+            <div class="service">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 inline-block" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
+              </svg>
+
+              <h3 class="service-title">Maintenance informatique</h3>
+            </div>
+          </div>
+
+          <div class="service-container">
+            <div class="service">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+
+              <h3 class="service-title">Administrateur du Réseau</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end services -->
+
+      <!-- start projets -->
+      <div id="projets" class="scroll-mt-16">
+        <h2 class="header">Projets</h2>
+
+        <div class="flex flex-wrap -m-1 md:-m-2">
+          <div class="gallery-container" data-modal="modal" data-link="1">
+            <div class="relative">
+              <img id="pi1" alt="gallery" class="lazyload gallery-img" data-src="assets/img/tss_r.jpg" src="assets/img/tss_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt1" class="gallery-h2">T-Shirts</h1>
+                <p id="pd1" class="leading-relaxed">Un site web pour le commerce de T-shirts, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="2">
+            <div class="relative">
+              <img id="pi2" alt="gallery" class="lazyload gallery-img" data-src="assets/img/qfs_r.jpg" src="assets/img/qfs_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt2" class="gallery-h2">Quick Food</h1>
+                <p id="pd2" class="leading-relaxed">Un site web pour le pizza de Quick Food, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="3">
+            <div class="relative">
+              <img id="pi3" alt="gallery" class="lazyload gallery-img" data-src="assets/img/ps_r.jpg" src="assets/img/ps_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt3" class="gallery-h2">Proshop</h1>
+                <p id="pd3" class="leading-relaxed">Un site web pour le commerce de Proshop, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="4">
+            <div class="relative">
+              <img id="pi4" alt="gallery" class="lazyload gallery-img" data-src="assets/img/ss_r.jpg" src="assets/img/ss_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt4" class="gallery-h2">Slack Clone</h1>
+                <p id="pd4" class="leading-relaxed">un site web Slack a été cloné afin d'apprendre plusieurs langages de programmation.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="5">
+            <div class="relative">
+              <img id="pi5" alt="gallery" class="lazyload gallery-img" data-src="assets/img/ms_r.jpg" src="assets/img/ms_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt5" class="gallery-h2">Movies APP</h1>
+                <p id="pd5" class="leading-relaxed">Un site web pour le Pour obtenir des informations sur un film ou une série, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="6">
+            <div class="relative">
+              <img id="pi6" alt="gallery" class="lazyload gallery-img" data-src="assets/img/pas_r.jpg" src="assets/img/pas_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Site Web</h2>
+                <h1 id="pt6" class="gallery-h2">Position APP</h1>
+                <p id="pd6" class="leading-relaxed">Un site web pour partager votre emplacement, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="7">
+            <div class="relative">
+              <img id="pi7" alt="gallery" class="lazyload gallery-img" data-src="assets/img/pd_r.jpg" src="assets/img/pd_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Logiciel de Bureau</h2>
+                <h1 id="pt7" class="gallery-h2">Quick Food v2</h1>
+                <p id="pd7" class="leading-relaxed">Un programe du bureau pour gestion votre pizzeria, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="8">
+            <div class="relative">
+              <img id="pi8" alt="gallery" class="lazyload gallery-img" data-src="assets/img/pd2_r.jpg" src="assets/img/pd2_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Logiciel de Bureau</h2>
+                <h1 id="pt8" class="gallery-h2">Quick Food v1</h1>
+                <p id="pd8" class="leading-relaxed">Un programe du bureau pour gestion votre pizzeria, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="9">
+            <div class="relative">
+              <img id="pi9" alt="gallery" class="lazyload gallery-img" data-src="assets/img/cca_r.jpg" src="assets/img/cca_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Application Mobile</h2>
+                <h1 id="pt9" class="gallery-h2">Currency Converter APP</h1>
+                <p id="pd9" class="leading-relaxed">Un application de portable pour Convertisseur de devises, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-container" data-modal="modal" data-link="10">
+            <div class="relative">
+              <img id="pi10" alt="gallery" class="lazyload gallery-img" data-src="assets/img/ca_r.jpg" src="assets/img/ca_r_b.jpg">
+              <div class="gallery-body">
+                <h2 class="gallery-h1">Application Mobile</h2>
+                <h1 id="pt10" class="gallery-h2">Credits APP</h1>
+                <p id="pd10" class="leading-relaxed">Un application de portable pour gerer les credits du clients, et programmer en plusieurs langues.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end projets -->
+
+      <!-- start contact -->
+      <div id="contact" class="scroll-mt-16">
+        <h2 class="header">Contact</h2>
+
+        <div class="flex flex-col md:flex-row">
+          <div class="w-full md:w-4/6">
+            <div class="md:pr-8">
+              <!-- message -->
+              <div class="thankyou_message hidden bg-green-100 rounded-lg p-4 mb-4 text-sm text-green-700 dark:bg-green-200 dark:text-green-800" role="alert">
+                <span class="font-medium">Alerte réussite !</span> Merci de nous avoir contacté! Nous reviendrons vers vous bientôt!
+              </div>
+              <!-- form -->
+              <form class="space-y-2 mb-6 md:mb-0 gform" method="POST" action="https://script.google.com/macros/s/AKfycbwN9HnSq76GkUmoBE9wnH-Xin1cFsV9W6QXOlc3/exec">
+                <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
+                  <div class="w-full md:w-1/2">
+                    <input name="name" type="text" class="input" placeholder="Votre Nom" required>
+                  </div>
+
+                  <div class="w-full md:w-1/2">
+                    <input name="email" type="email" class="input" placeholder="Votre E-mail" required>
+                  </div>
+                </div>
+
+                <input name="sujet" type="text" class="input" placeholder="Votre Sujet" required>
+
+                <textarea name="message" rows="4" class="input" placeholder="Votre Message" required></textarea>
+
+                <button class="btn flex items-center justify-center space-x-2" type="submit" id="send">
+                  ENVOIE
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="w-full md:w-2/6 space-y-2">
+            <p class="font-bold">Adresse</p>
+            <p>Chlef, Algérie</p>
+            <p class="font-bold">Téléphone</p>
+            <p>0560314280 / 0697970724</p>
+            <p class="font-bold">E-mail</p>
+            <p>abderrezek.gallal@gmail.com</p>
+            <p class="font-bold">Réseau Social</p>
+            <p class="space-x-3">
+              <a target="_blank" href="https://www.facebook.com/Abderrezek.G" class="inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+              </a>
+
+              <a target="_blank" href="https://twitter.com/abderrezek94" class="inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+              </a>
+
+              <a target="_blank" href="https://www.linkedin.com/in/abderrezek-gallal" class="inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-blue-600 h-6 w-6" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+              </a>
+
+              <a target="_blank" href="https://github.com/Abderrezek" class="inline-block">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-6 w-6" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end contact -->
+
+      <!-- start footer -->
+      <p class="text-center font-semibold">
+        Fabriqué avec
+        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block text-red-600 mx-1 h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+        </svg>
+        par Abderrezek Gallal &copy; <span id="year"></span>
+      </p>
+      <!-- end footer -->
+    </div>
+  </div>
+
+  <!-- start modal -->
+  <div id="modal" aria-hidden="true" class="shadow-md hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
+    <div class="relative w-full max-w-2xl lg:max-w-3xl px-4 h-full md:h-auto">
+      <!-- Modal content -->
+      <div class="bg-white rounded-md shadow relative dark:bg-gray-700">
+        <!-- Modal header -->
+        <div class="flex items-start justify-between px-5 py-3 border-b rounded-t dark:border-gray-600">
+          <h3 id="title-modal" class="text-gray-900 text-xl lg:text-2xl font-semibold dark:text-white">
+            Terms of Service
+          </h3>
+          <button data-modal="modal" type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal="default-modal">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+          </button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="px-4 py-2 space-y-6">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-2/3">
+              <a href="#" target="_blank">
+                <img id="img-modal" alt="gallery" class="block w-full h-full object-cover object-center" src="https://dummyimage.com/800x600/F3F4F7/8693ac">
+              </a>
+            </div>
+
+            <div class="w-full md:w-1/3">
+              <div id="desc-modal" class="pt-3 pb-1 md:py-0.5 px-1 dark:text-gray-300">
+                desc
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal footer -->
+        <!-- <div class="flex space-x-2 items-center p-6 border-t border-gray-200 rounded-b dark:border-gray-600">
+
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- end modal -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/js/main.min.js"></script>
+</body>
+</html>
